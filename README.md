@@ -2,13 +2,12 @@
 
 Name: Intouch Yutinatorn
 ID: 61090007
-Github link: https://github.com/intouchkey/kmitl-esd-exercise2-61090007-Key/
+Github link: https://github.com/intouchkey/kmitl-esd-exercise3-61090007-Key/
 
-This project covers the excercise 2 (Client, Server, API) for KMITL ESD - lecture 5-7:
-- Server with API (RESTful web services) 
-- Client using the server API
-- Model for data objects
-- Homework
+This project covers the excercise 3 (client, server, model, customer-service)
+- REST services: Create a customer and a quotation API (spring controllers) that support CRUD operations for customers and quotations
+- Business Logic: create customer and a quotation business logic classes (spring services) that support CRUD operations. The quotation creation must validate a customer (must exist).
+- Persistence: create customer and a quotation persistence classes (spring JPA) that support CRUD operations. Use H2 database.
 
 The client and the server are using the Spring framework.
 
